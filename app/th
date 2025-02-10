@@ -1,0 +1,114 @@
+import React from 'react'
+import { TbListDetails } from "react-icons/tb";
+import { FaOpencart } from "react-icons/fa";
+import Header from './components/Header/Header';
+export default function Home() {
+  return (
+    <>{/* <Header />  */}
+    <div className="w-full h-screen relative bg-[#b7b7b7]  overflow-hidden">
+
+      <div className="w-[130px] h-[834px] left-0 top-0 absolute bg-[#c5c5c5]" />
+      {/* Sidebar */}
+      <div className="w-[130px] h-full absolute left-0 top-0 bg-[#c5c5c5]" />
+
+      {/* Floor */}
+      <img className="w-full h-[52px] absolute bottom-0" src="/floor.png" alt="floor" />
+
+      {/* Table */}
+      <img className="w-[70%] max-w-[700px] h-auto absolute bottom-[0%] right-[0%]" src="/table.png" alt="table" />
+ 
+
+      {/* <div className="w-[86.84px] h-[19px] left-[1108px] top-[99px] absolute">
+    </div> */}
+      <div className="w-[277px] h-[411px] right-[60px] top-[75px] absolute">
+        <div className="w-[277px] h-[411px] left-0 top-0 absolute bg-gradient-to-r from-white to-[#f2f2f2] rounded-[25px] border-2 border-[#b3b3b3]" />
+        <div className="w-[188px] h-[17px] left-[45px] top-[35px] absolute">
+          <div className="left-0 top-0 absolute text-[#3f3f3f] text-sm font-medium font-['Inter']">Overview</div>
+          <div className="left-[113px] top-0 absolute text-[#3f3f3f] text-sm font-normal font-['Inter']">Ingredients</div>
+        </div>
+        <div className="w-[100px] h-[100px] left-[29px] top-[70px] absolute">
+          <div className="w-[65px] h-[86px] left-0 top-[14px] absolute bg-[#e8a370] rounded-[26px]" />
+          <div className="left-[12px] top-0 absolute text-[#3f3f3f] text-[55px] font-black font-['Poppins']">3.8</div>
+        </div>
+        <div className="w-[219px] h-[180px] left-[30px] top-[184px] absolute">
+          <div className="left-0 top-0 absolute text-[#3f3f3f] text-xl font-medium font-['Inter']">Ascenseur pour armoire</div>
+          <div className="left-0 top-[34px] absolute text-[#3f3f3f] text-xs font-normal font-['Inter']">Lorem ipsum dolor</div>
+          <div className="w-[219px] left-0 top-[58px] absolute text-[#3f3f3f] text-sm font-normal font-['Inter']">Lorem ipsum dolor sit amet consectetur adipiscing elit ante, penatibus arcu himenaeos</div>
+          <div className="w-[120px] h-[30px] mt-40 flex items-center gap-2 bg-[#efefef] rounded-full border border-black/20 px-2">
+            <img src="/bx_like.svg" className="w-5 h-5" alt="Like" />
+            <span className="text-[#3f3f3f] text-xs font-medium">56 Likes</span>
+            <img src="/bx_dislike.svg" className="w-5 h-5" alt="Dislike" />
+          </div>
+
+        </div>
+      </div>
+
+
+
+
+ <div className="w-[578px] h-[158px] left-[234px] top-[508px] absolute">
+  {/* Ascenseur pour armoire */}
+  <div className="w-[107px] h-[157px] left-0 top-0 absolute bg-[#d9d9d9] rounded-[19px] flex-col justify-center items-center gap-3 inline-flex 
+    transition-all duration-300 hover:bg-gray-300 hover:scale-105 cursor-pointer">
+    <img className="w-[79px] h-[78px]" src="/elevateur.png" />
+    <div className="w-[58px] text-center text-[#423f40] text-xs font-medium font-['Inter']">Ascenseur <br />pour armoire</div>
+  </div>
+
+  {/* Double grade Classique */}
+  <div className="w-[107px] h-[157px] left-[157px] top-0 absolute rounded-[19px] flex-col justify-center items-center gap-3 inline-flex 
+    transition-all duration-300 hover:bg-gray-300 hover:scale-105 cursor-pointer">
+    <img className="w-[79px] h-[78px]" src="double-grade-1.png" />
+    <div className="w-[58px] text-center text-[#423f40] text-xs font-medium font-['Inter']">Double grade<br />Classique</div>
+  </div>
+
+  {/* Double grade En Bois */}
+  <div className="w-[107px] h-[157px] left-[314px] top-[1px] absolute rounded-[19px] flex-col justify-center items-center gap-3 inline-flex 
+    transition-all duration-300 hover:bg-gray-300 hover:scale-105 cursor-pointer">
+    <img className="w-[79px] h-[79px]" src="double-grade-2.png" />
+    <div className="w-[58px] text-center text-[#423f40] text-xs font-medium font-['Inter']">Double grade<br />En Bois</div>
+  </div>
+
+  {/* Planche Tournante */}
+  <div className="w-[107px] h-[157px] left-[471px] top-[1px] absolute rounded-[19px] flex-col justify-center items-center gap-3 inline-flex 
+    transition-all duration-300 hover:bg-gray-300 hover:scale-105 cursor-pointer">
+    <img className="w-[79px] h-[78px]" src="planche-tournante.jpg" />
+    <div className="w-[58px] text-center text-[#423f40] text-xs font-medium font-['Inter']">Planche<br />Tournante</div>
+  </div>
+</div>
+
+      <div className="w-1.5 h-7 left-[168px] top-[160px] absolute bg-[#423f40]" />
+        <div className="w-1.5 h-1.5 left-[168px] top-[196px] absolute bg-[#423f40]" />
+        <div className="w-1.5 h-1.5 left-[168px] top-[210px] absolute bg-[#423f40]" />
+        <div className="w-1.5 h-1.5 left-[168px] top-[224px] absolute bg-[#423f40]" />
+        <div className="w-1.5 h-1.5 left-[168px] top-[238px] absolute bg-[#423f40]" />
+        
+
+      <div className="w-[1249px] h-[1267px] left-[-241px] top-[-812px] absolute">
+        
+        {/*cercle rouge*/}
+{/*         <div className="w-[100%] h-[1167px] left-[1208px] top-[10px] relative origin-top-left rotate-90 rounded-full border-[180px] border-[#e09e95]" />
+ */}        
+        <div className="w-[342px] h-[338px] left-[454px] top-[929px] absolute">
+
+          <img className="w-[342px] h-[338px] left-0 top-0 absolute" src="/elevateur.png" />
+        </div>
+
+
+      </div>
+      <div className="w-[337px] h-[238.84px] left-[557px] top-[149px] absolute">
+        <div className="left-0 top-0 absolute text-[#423f40] text-base font-medium font-['Inter']">#1 Most loved dish</div>
+        <div className="left-0 top-[19.61px] absolute text-[#423f40] text-6xl font-light font-['Inter']">Ascenseur pour armoire </div>
+        <div className="flex items-center gap-6 mt-48">
+          <div className="flex items-center gap-2 text-[#423f40] text-md font-normal cursor-pointer">
+            <TbListDetails />
+            <span>Voir les détails</span>
+          </div>
+          <div className="flex items-center gap-2 text-[#423f40] text-md font-normal cursor-pointer">
+            <FaOpencart />
+            <span>Ajouter au panier</span>
+          </div>
+        </div>
+      </div>
+    </div></>
+  )
+}
