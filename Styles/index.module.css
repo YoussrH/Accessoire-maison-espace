@@ -206,6 +206,7 @@
 }
 .subheading {
     position: relative;
+    font-size:56px
 }
 .text3 {
     align-self: stretch;
@@ -719,7 +720,7 @@
 .stayUpdatedWith1 {
     width: 766px;
     position: relative;
-    font-size: 24px;
+    font-size: 20px;
     line-height: 152.02%;
     font-family: Inter;
     color: #6a6d70;
@@ -961,7 +962,7 @@
     left: 120px;
     width: 1320px;
     height: 1073px;
-    font-size: 56px;
+    font-size: 20px;
     font-family: Sansation;
 }
 .logoItem {

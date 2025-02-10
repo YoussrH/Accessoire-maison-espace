@@ -1,0 +1,283 @@
+.perfectHarmonyComfort {
+  width: 533px;
+  position: relative;
+  line-height: 120%;
+  display: inline-block;
+}
+.exploreFurnitureThat {
+  width: 508px;
+  position: relative;
+  font-size: 18.49px;
+  line-height: 30.82px;
+  color: #999;
+  display: inline-block;
+}
+.exploreOurOffers {
+  position: relative;
+}
+.button {
+  border-radius: 24.65px;
+  border: 1.2px solid #333;
+  box-sizing: border-box;
+  height: 46.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6.2px 16px;
+}
+.icon {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 37px;
+  height: 37px;
+}
+.watchVideo {
+  position: absolute;
+  top: 8.09px;
+  left: 49.31px;
+}
+.video {
+  width: 138.3px;
+  position: relative;
+  height: 37px;
+  color: #999;
+}
+.buttonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 25px;
+  font-size: 13.87px;
+  font-family: Poppins;
+}
+.title {
+  position: absolute;
+  top: 57.27px;
+  left: 23px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 16px;
+}
+.ornamentChild {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 43.14px;
+  width: 627.9px;
+  height: 415.3px;
+  object-fit: cover;
+}
+.ornamentItem {
+  position: absolute;
+  top: 53.16px;
+  left: 419.11px;
+  border-radius: 24.65px 24.65px 0px 0px;
+  background: linear-gradient(185.22deg, #ffffffc9, rgba(255, 255, 255,0));
+  width: 147.9px;
+  height: 362.1px;
+}
+.ornament {
+  position: absolute;
+  top: 69px;
+  left: 613px;
+  width: 627.9px;
+  height: 415.3px;
+}
+.confort {
+  position: relative;
+  font-weight: 600;
+}
+.locationIcon {
+  width: 21px;
+  position: relative;
+  height: 21px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.cozySeating {
+  width: 123.3px;
+  position: relative;
+  font-weight: 500;
+  display: inline-block;
+  flex-shrink: 0;
+}
+.destination {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 148.3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+.content {
+  width: 148.3px;
+  position: relative;
+  height: 21px;
+}
+.form {
+  border-radius: 12.33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  color: #999;
+}
+.from {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 6.2px;
+}
+.form1 {
+  width: 175px;
+  border-radius: 12.33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #999;
+}
+.noCostDelivery {
+  position: absolute;
+  top: 0px;
+  left: 24.65px;
+  font-weight: 500;
+  display: inline-block;
+  width: 123.3px;
+}
+.locationIcon2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 18.5px;
+  height: 18.5px;
+  overflow: hidden;
+}
+.destination2 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 147.9px;
+  height: 21px;
+}
+.content2 {
+  width: 147.9px;
+  position: relative;
+  height: 21px;
+}
+.form2 {
+  border-radius: 12.33px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  color: #999;
+}
+.line {
+  width: 0.8px;
+  position: relative;
+  border-right: 0.8px solid #909090;
+  box-sizing: border-box;
+  height: 47px;
+  opacity: 0.5;
+}
+.button1 {
+  width: 123.3px;
+  border-radius: 73.96px;
+  background-color: #fff;
+  border: 1px solid #000;
+  box-sizing: border-box;
+  height: 46.2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 6.2px;
+  color: #000;
+}
+.searchBar {
+  position: absolute;
+  top: 442.77px;
+  left: -1.67px;
+  box-shadow: 0px 18.48998260498047px 38.52px rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(3.08px);
+  border-radius: 73.96px;
+  background-color: #fff;
+  width: 970.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 24.7px;
+  box-sizing: border-box;
+  gap: 24.7px;
+  font-size: 13.87px;
+  color: #909090;
+  font-family: Poppins;
+}
+.lowes {
+  position: relative;
+  color: #333;
+}
+.dewalt {
+  position: relative;
+  font-weight: 500;
+  font-family: Poppins;
+}
+.homeDepot {
+  position: relative;
+  font-weight: 600;
+  font-family: Montserrat;
+}
+.ikea {
+  position: relative;
+  font-family: Montserrat;
+}
+.makita {
+  position: relative;
+  font-family: Poppins;
+}
+.brand {
+  position: absolute;
+  top: 606px;
+  left: 31px;
+  width: 1232.7px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 61.6px;
+  opacity: 0.5;
+  font-size: 27.73px;
+  color: #313131;
+}
+.heroSectionMeno {
+  position: absolute;
+  top: 122px;
+  left: 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 90px;
+  font-family: Sansation;
+}
+
+.hero {
+  width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  text-align: left;
+  font-size: 64px;
+  color: #333;
+  font-family: Inter;
+}
+
