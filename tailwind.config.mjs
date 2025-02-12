@@ -7,6 +7,7 @@ export default {
   ],
   theme: {
     extend: {
+      
       backgroundImage: {
         'angular-gradient': 'conic-gradient(from 0deg, #FF4930, rgba(211, 189, 186, 0%))',
       },

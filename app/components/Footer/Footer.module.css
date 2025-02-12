@@ -1,0 +1,207 @@
+.footerWrapper {
+    position: absolute;
+    top: 4786px;
+    left: calc(50% - 720px);
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 8px 120px;
+    box-sizing: border-box;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 40px;
+}
+
+.frameParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 59px;
+}
+.logoParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+    font-size: 14px;
+    color: #6a6d70;
+}
+.logo {
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 6px;
+    box-sizing: border-box;
+}
+.textParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+}
+.text {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+}
+.frameGroup {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: 16px;
+    color: #505050;
+}
+.textInputParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.textInput {
+    width: 367px;
+    background-color: #fff;
+    border: 1px solid #6a6d70;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 12px;
+}
+.placeholder {
+    flex: 1;
+    position: relative;
+    line-height: 150%;
+}
+.button {
+    border-radius: 33px;
+    border: 1px solid #6a6d70;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    color: #6a6d70;
+}
+.iconFacebook {
+    width: 24px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+.facebook {
+    position: relative;
+    line-height: 150%;
+}
+.link10 {
+    width: 169.3px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 8px 0px;
+    box-sizing: border-box;
+    gap: 12px;
+}
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 14px;
+    color: #6a6d70;
+}
+.headingContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 11px;
+}
+
+.text1 {
+    width: 500px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+}
+.textWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    font-size: 12px;
+    color: #6a6d70;
+}
+.headingParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 16px;
+}
+.heading {
+    width: 169.3px;
+    position: relative;
+    display: inline-block;
+}
+.heading2 {
+    width: 169.3px;
+    position: relative;
+    line-height: 150%;
+    font-weight: 600;
+    display: inline-block;
+}
+
+.linkParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 12px;
+    color: #6a6d70;
+}
+.textGroup {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 678px;
+    font-size: 12px;
+    color: #6a6d70;
+}
+.subheading {
+    position: relative;
+    font-size:13px
+}
+
+.frameDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 32px;
+} 
+.logoChild {
+    width: 32.8px;
+    position: relative;
+    height: 33.5px;
+}
+
+
